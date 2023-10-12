@@ -1,0 +1,191 @@
+% 东华大学学士学位毕业论文
+\ProvidesPackage{resume/dhuBachelorstyle}
+
+% 设置页面尺寸
+\usepackage[a4paper, top=2.54cm, bottom=2.54cm, left=3.18cm, right=3.18cm]{geometry} % 页边距设置
+\usepackage{fancyhdr} % 自定义页眉页脚
+% 页眉页脚设置
+\pagestyle{fancy}
+% \fancyhf{}
+\fancyhead[L]{\includegraphics[width=0.24\linewidth]{./assets/logo.png}}
+\setlength{\headsep}{60pt} % 页眉高度
+\setlength{\footskip}{0pt} % 页脚高度
+% 目录设置
+% \usepackage{tocloft} % 修改目录样式
+\usepackage{sectsty} % 自定义章节标题样式
+\usepackage{titlesec} % 修改章节标题的字体大小
+
+% 设置字体
+% \usepackage[UTF8]{ctex}
+% \usepackage{fontspec}
+\usepackage[UTF8, fontset=none]{ctex}  % 清除默认字体
+\usepackage{fontspec}  % 设置字体
+\setCJKmainfont{SimSun}[AutoFakeBold]  % 正文字体
+\setCJKsansfont[AutoFakeBold=3]{KaiTi} % 无衬线字体
+\setCJKmonofont[AutoFakeBold=3]{SimHei} % 等宽字体
+\newCJKfontfamily\heiti{SimHei} % 黑体别名
+\newCJKfontfamily\songti{SimSun}[BoldFont={SimHei}] % 宋体别名，并设置黑体为粗体
+\newCJKfontfamily\boldSong{FZCuSong-B09S} % 使用方正粗宋体来代替宋体加粗
+\newCJKfontfamily\kaiti{KaiTi} % 楷体别名
+\setmainfont{Times New Roman}
+% 文本设置
+\usepackage{enumerate} % 有/无序列表支持
+\usepackage[hidelinks]{hyperref} % 目录添加超链接
+\usepackage{zhnumber} % 章节序号中文展示
+% 数学支持
+\usepackage{amsmath} % 数学公式支持
+\usepackage{amssymb} % 数学符号支持
+\usepackage{bm} % 公式加粗
+\usepackage{mathrsfs} % 花体字母
+% 图片设置
+\usepackage{caption} % 设置图片标题
+\usepackage{float} % 控制图片位置
+\usepackage{subfigure} % 图片并排
+\usepackage{graphicx} % 页眉插入图片支持
+% 表格设置
+\usepackage{booktabs} % 插入表格
+\usepackage{multirow} % 表格自动换行
+\usepackage{bigstrut} % 表格设置
+\usepackage{rotating} % 表格设置
+\usepackage{tabularx} % 表格设置
+
+%%%%%%%%%%%%%%% 重写题目 %%%%%%%%%%%%%%%
+\newcommand{\reTitle}[1]{
+    \fancyhead[R]{\heiti{\fontsize{9pt}{10.8pt}\selectfont #1}}
+    \begin{center}
+        ~\par
+        \heiti{\fontsize{16pt}{19.2pt}\selectfont #1}\\
+        ~\par
+    \end{center}
+}
+\newcommand{\reTitleEN}[1]{
+    \begin{center}
+        ~\par
+        \textbf{\fontsize{16pt}{19.2pt}\selectfont #1}\\
+        ~\par
+    \end{center}
+}
+
+%%%%%%%%%%%%%%% 重写摘要 %%%%%%%%%%%%%%%
+\newcommand{\reAbstract}{
+    \begin{center}
+        \heiti{\fontsize{14pt}{16.8pt}\selectfont 摘要}\\
+        ~\par
+    \end{center}
+}
+\newcommand{\reAbstractEN}{
+    \begin{center}
+        \textbf{\fontsize{14pt}{16.8pt}\selectfont ABSTRACT}\\
+        ~\par
+    \end{center}
+}
+
+%%%%%%%%%%%%%%% 重写关键词 %%%%%%%%%%%%%%%
+\newcommand{\reKeyword}[1]{
+    ~\par
+    \noindent \heiti{\fontsize{12pt}{14.4pt}\selectfont 关键词：}\songti{\fontsize{12pt}{14.4pt}\selectfont #1}
+    \newpage
+}
+\newcommand{\reKeywordEN}[1]{
+    ~\par
+    \noindent \textbf{\fontsize{12pt}{14.4pt}\selectfont Key words: }#1
+    \newpage
+}
+
+%%%%%%%%%%%%%%% 设置各级标题格式 %%%%%%%%%%%%%%%
+\titleformat{\section}{\centering\fontsize{16pt}{19.2pt} \heiti\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\fontsize{14pt}{16.8pt} \heiti\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\fontsize{12pt}{14.4pt} \heiti\bfseries}{\thesubsubsection}{1em}{}
+
+%%%%%%%%%%%%%%% 重写一级标题 %%%%%%%%%%%%%%%
+\newcommand{\reSection}[1]{
+    \newpage
+    \section{#1}
+    ~\par
+}
+
+%%%%%%%%%%%%%%% 有序列表 %%%%%%%%%%%%%%%
+\newcommand{\orderedList}[1]{
+    \begin{enumerate}[\hspace{2em} (i)]
+        #1
+    \end{enumerate}
+}
+
+%%%%%%%%%%%%%%% 数学环境设置 %%%%%%%%%%%%%%%
+\numberwithin{equation}{section} % 数学公式按章节编号
+\newtheorem{example}{例}
+\newtheorem{algorithm}{算法}
+\newtheorem{theorem}{定理}[section]
+\newtheorem{definition}{定义}
+\newtheorem{axiom}{公理}
+\newtheorem{property}{性质}
+\newtheorem{proposition}{命题}
+\newtheorem{lemma}{引理}
+\newtheorem{corollary}{推论}
+\newtheorem{remark}{注解}
+\newtheorem{condition}{条件}
+\newtheorem{conclusion}{结论}
+\newtheorem{assumption}{假设}
+
+%%%%%%%%%%%%%%% 图片环境设置 %%%%%%%%%%%%%%%
+\counterwithin{figure}{section} % 图片按章节编号
+\captionsetup{font={bf}}
+
+%%%%%%%%%%%%%%% 表格环境设置 %%%%%%%%%%%%%%%
+\counterwithin{table}{section} % 表格按章节编号
+
+%%%%%%%%%%%%%%% 参考文献 %%%%%%%%%%%%%%%
+\newcommand{\reference}[1]{
+    \newpage
+    \begin{thebibliography}{99}
+        \addcontentsline{toc}{section}{参考文献}
+        #1
+    \end{thebibliography}
+}
+
+%%%%%%%%%%%%%%% 致谢 %%%%%%%%%%%%%%%
+\newcommand{\reThanks}[1]{
+    \newpage
+    \addcontentsline{toc}{section}{致谢}
+    \begin{center}
+        ~\par
+        \heiti{\fontsize{16pt}{19.2pt}\selectfont 致谢}\\
+        ~\par
+    \end{center}
+    #1
+}
+
+%%%%%%%%%%%%%%% 代码块 %%%%%%%%%%%%%%%
+\usepackage{listings}
+\usepackage{xcolor}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+  basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  captionpos=bl,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  deletekeywords={...},            % if you want to delete keywords from the given language
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  frame=single,                    % adds a frame around the code
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       % keyword style
+  %language=Python,                 % the language of the code
+  morekeywords={*,...},            % if you want to add more keywords to the set
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{orange},     % string literal style
+  tabsize=2,                       % sets default tabsize to 2 spaces
+  %title=myPython.py                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
