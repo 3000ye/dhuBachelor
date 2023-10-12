@@ -27,7 +27,7 @@ git clone https://github.com/3000ye/dhuBachelor.git
 
 在使用模板之前，请先找到并打开`fonts`文件夹，安装里面的所有字体。
 
-### 配置 $\TeX$ 环境
+### 配置 TeX 环境
 
 如果你是 $\LaTeX$ 小白，请先行阅读：[使用 LaTeX 优雅地完成创作](https://3000ye.com/p/elegant-latex/)，在这个教程里你可以学会如何安装并配置适合你的 $\TeX$ 环境。
 
