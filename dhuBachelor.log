@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.26)  12 OCT 2023 13:05
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.26)  19 OCT 2023 11:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -457,61 +457,95 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/bm.sty
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count316
+\calc@Bcount=\count317
+\calc@Adimen=\dimen257
+\calc@Bdimen=\dimen258
+\calc@Askip=\skip74
+\calc@Bskip=\skip75
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count318
+\calc@Cskip=\skip76
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count319
+\l_MT_multwidth_dim=\dimen259
+\origjot=\skip77
+\l_MT_shortvdotswithinadjustabove_dim=\dimen260
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen261
+\l_MT_above_intertext_sep=\dimen262
+\l_MT_below_intertext_sep=\dimen263
+\l_MT_above_shortintertext_sep=\dimen264
+\l_MT_below_shortintertext_sep=\dimen265
+\xmathstrut@box=\box59
+\xmathstrut@dim=\dimen266
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup6
-\symboldletters=\mathgroup7
-\symboldsymbols=\mathgroup8
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
 Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
 Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
+\symboldlasy=\mathgroup10
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup9
+\symrsfs=\mathgroup11
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
-\caption@tempdima=\dimen257
-\captionmargin=\dimen258
-\caption@leftmargin=\dimen259
-\caption@rightmargin=\dimen260
-\caption@width=\dimen261
-\caption@indent=\dimen262
-\caption@parindent=\dimen263
-\caption@hangindent=\dimen264
+\caption@tempdima=\dimen267
+\captionmargin=\dimen268
+\caption@leftmargin=\dimen269
+\caption@rightmargin=\dimen270
+\caption@width=\dimen271
+\caption@indent=\dimen272
+\caption@parindent=\dimen273
+\caption@hangindent=\dimen274
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count316
-\c@continuedfloat=\count317
+\c@caption@flags=\count320
+\c@continuedfloat=\count321
 Package caption Info: hyperref package is loaded.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count318
+\c@float@type=\count322
 \float@exts=\toks25
-\float@box=\box59
+\float@box=\box60
 \@float@everytoks=\toks26
-\@floatcapt=\box60
+\@floatcapt=\box61
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip74
-\subfigcapskip=\skip75
-\subfigcaptopadj=\dimen265
-\subfigbottomskip=\skip76
-\subfigcapmargin=\dimen266
-\subfiglabelskip=\skip77
-\c@subfigure=\count319
-\c@lofdepth=\count320
-\c@subtable=\count321
-\c@lotdepth=\count322
+\subfigtopskip=\skip78
+\subfigcapskip=\skip79
+\subfigcaptopadj=\dimen275
+\subfigbottomskip=\skip80
+\subfigcapmargin=\dimen276
+\subfiglabelskip=\skip81
+\c@subfigure=\count323
+\c@lofdepth=\count324
+\c@subtable=\count325
+\c@lotdepth=\count326
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 (/usr/local/texlive/2023/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip78
-\subfig@bottom=\skip79
+\subfig@top=\skip82
+\subfig@bottom=\skip83
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
@@ -525,33 +559,33 @@ Package graphics Info: Driver file: xetex.def on input line 107.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen267
-\Gin@req@width=\dimen268
+\Gin@req@height=\dimen277
+\Gin@req@width=\dimen278
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen269
-\lightrulewidth=\dimen270
-\cmidrulewidth=\dimen271
-\belowrulesep=\dimen272
-\belowbottomsep=\dimen273
-\aboverulesep=\dimen274
-\abovetopsep=\dimen275
-\cmidrulesep=\dimen276
-\cmidrulekern=\dimen277
-\defaultaddspace=\dimen278
-\@cmidla=\count323
-\@cmidlb=\count324
-\@aboverulesep=\dimen279
-\@belowrulesep=\dimen280
-\@thisruleclass=\count325
-\@lastruleclass=\count326
-\@thisrulewidth=\dimen281
+\heavyrulewidth=\dimen279
+\lightrulewidth=\dimen280
+\cmidrulewidth=\dimen281
+\belowrulesep=\dimen282
+\belowbottomsep=\dimen283
+\aboverulesep=\dimen284
+\abovetopsep=\dimen285
+\cmidrulesep=\dimen286
+\cmidrulekern=\dimen287
+\defaultaddspace=\dimen288
+\@cmidla=\count327
+\@cmidlb=\count328
+\@aboverulesep=\dimen289
+\@belowrulesep=\dimen290
+\@thisruleclass=\count329
+\@lastruleclass=\count330
+\@thisrulewidth=\dimen291
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip80
-\multirow@cntb=\count327
-\multirow@dima=\skip81
-\bigstrutjot=\dimen282
+\multirow@colwidth=\skip84
+\multirow@cntb=\count331
+\multirow@dima=\skip85
+\bigstrutjot=\dimen292
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/multirow/bigstrut.sty
 Package: bigstrut 2021/03/15 v2.8 Provide larger struts in tabulars
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/rotating.sty
@@ -559,70 +593,70 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count328
-\rotFPtop=\skip82
-\rotFPbot=\skip83
-\rot@float@box=\box61
+\c@r@tfl@t=\count332
+\rotFPtop=\skip86
+\rotFPbot=\skip87
+\rot@float@box=\box62
 \rot@mess@toks=\toks27
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen283
-\ar@mcellbox=\box62
-\extrarowheight=\dimen284
+\col@sep=\dimen293
+\ar@mcellbox=\box63
+\extrarowheight=\dimen294
 \NC@list=\toks28
-\extratabsurround=\skip84
-\backup@length=\skip85
-\ar@cellbox=\box63
+\extratabsurround=\skip88
+\backup@length=\skip89
+\ar@cellbox=\box64
 )
-\TX@col@width=\dimen285
-\TX@old@table=\dimen286
-\TX@old@col=\dimen287
-\TX@target=\dimen288
-\TX@delta=\dimen289
-\TX@cols=\count329
+\TX@col@width=\dimen295
+\TX@old@table=\dimen296
+\TX@old@col=\dimen297
+\TX@target=\dimen298
+\TX@delta=\dimen299
+\TX@cols=\count333
 \TX@ftn=\toks29
 )
-\c@example=\count330
-\c@algorithm=\count331
-\c@theorem=\count332
-\c@definition=\count333
-\c@axiom=\count334
-\c@property=\count335
-\c@proposition=\count336
-\c@lemma=\count337
-\c@corollary=\count338
-\c@remark=\count339
-\c@condition=\count340
-\c@conclusion=\count341
-\c@assumption=\count342
+\c@example=\count334
+\c@algorithm=\count335
+\c@theorem=\count336
+\c@definition=\count337
+\c@axiom=\count338
+\c@property=\count339
+\c@proposition=\count340
+\c@lemma=\count341
+\c@corollary=\count342
+\c@remark=\count343
+\c@condition=\count344
+\c@conclusion=\count345
+\c@assumption=\count346
  (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count343
-\lst@gtempboxa=\box64
+\lst@mode=\count347
+\lst@gtempboxa=\box65
 \lst@token=\toks30
-\lst@length=\count344
-\lst@currlwidth=\dimen290
-\lst@column=\count345
-\lst@pos=\count346
-\lst@lostspace=\dimen291
-\lst@width=\dimen292
-\lst@newlines=\count347
-\lst@lineno=\count348
-\lst@maxwidth=\dimen293
+\lst@length=\count348
+\lst@currlwidth=\dimen300
+\lst@column=\count349
+\lst@pos=\count350
+\lst@lostspace=\dimen301
+\lst@width=\dimen302
+\lst@newlines=\count351
+\lst@lineno=\count352
+\lst@maxwidth=\dimen303
  (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count349
-\lst@skipnumbers=\count350
-\lst@framebox=\box65
+\c@lstnumber=\count353
+\lst@skipnumbers=\count354
+\lst@framebox=\box66
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
  (/usr/local/texlive/2023/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2022/08/05 v3.9.1 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count351
-\l__xeCJK_listings_flag_int=\count352
+\l__xeCJK_listings_max_char_int=\count355
+\l__xeCJK_listings_flag_int=\count356
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -638,6 +672,19 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/algorithms/algorithm.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+\@float@every@algorithm=\toks31
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count357
+\c@ALC@line=\count358
+\c@ALC@rem=\count359
+\c@ALC@depth=\count360
+\ALC@tlm=\skip90
+\algorithmicindent=\skip91
 )) (./dhuBachelor.aux)
 \openout1 = `dhuBachelor.aux'.
 
@@ -700,7 +747,7 @@ LaTeX Font Info:    ... okay on input line 7.
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
-\symlegacymaths=\mathgroup10
+\symlegacymaths=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
 (Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 7.
 LaTeX Font Info:    Redeclaring math accent \acute on input line 7.
@@ -763,7 +810,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count353
+\c@lstlisting=\count361
 
 Package fontspec Info: Could not resolve font "SimHei/BI" (it probably doesn't
 (fontspec)             exist).
@@ -860,6 +907,10 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 2.
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -996,6 +1047,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
 [6]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 186.
 File: ./assets/logo.png Graphic file (type bmp)
 <./assets/logo.png>
 
@@ -1027,7 +1079,23 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[8] (./dhuBachelor.aux)
+[8]
+File: ./assets/logo.png Graphic file (type bmp)
+<./assets/logo.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 44.66748pt, for example:
+(fancyhdr)                \setlength{\headheight}{44.66748pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-32.66748pt}.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\footskip}{14.49998pt}.
+
+[9] (./dhuBachelor.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
@@ -1036,15 +1104,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `dhuBachelor.out' has not changed.
-(rerunfilecheck)             Checksum: 487E8CB5FF0B68B632784A1293583A54;1347.
+(rerunfilecheck)             Checksum: EE19F21A971231D1D41973587D8EA135;1411.
  ) 
 Here is how much of TeX's memory you used:
- 20168 strings out of 476683
- 416372 string characters out of 5804047
+ 21049 strings out of 476683
+ 432310 string characters out of 5804047
  1923018 words of memory out of 5000000
- 40056 multiletter control sequences out of 15000+600000
- 520740 words of font info for 104 fonts, out of 8000000 for 9000
+ 40914 multiletter control sequences out of 15000+600000
+ 521164 words of font info for 108 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 104i,12n,111p,524b,1211s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,12n,111p,524b,1213s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on dhuBachelor.pdf (11 pages).
+Output written on dhuBachelor.pdf (12 pages).
