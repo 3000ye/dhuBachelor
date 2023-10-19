@@ -244,6 +244,24 @@ int main() {
 \lstinputlisting[language=c++, title=code.cpp]{code/code.cpp}
 ```
 
+### 插入伪代码
+
+使用宏包`algorithm, algorithmic`来实现伪代码的添加，具体实现可以查看文档，下面是一个简单示例：
+
+```tex
+\begin{algorithm}
+    \caption{Example Pseudocode}
+    \begin{algorithmic}
+        \STATE $x\gets0$
+        \IF {$x\leq 0$}
+        \STATE $x\gets x+1$
+        \ELSE
+        \STATE $x\gets x-1$
+        \ENDIF
+    \end{algorithmic}
+\end{algorithm}
+```
+
 ### 参考文献
 
 参考文献使用`\bibitem`来添加，添加时需要手动更改`{RNi}`索引（`i`是你文献的序号）。
