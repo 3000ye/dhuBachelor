@@ -13,5 +13,5 @@
 \contentsline {subsection}{\numberline {6.1}直接输入代码}{6}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}导入文件代码}{6}{subsection.6.2}%
 \contentsline {section}{\numberline {7}伪代码}{7}{section.7}%
-\contentsline {section}{参考文献}{8}{ALC@unique.6}%
-\contentsline {section}{致谢}{9}{ALC@unique.6}%
+\contentsline {section}{\numberline {8}参考文献}{8}{section.8}%
+\contentsline {section}{致谢}{9}{section.8}%

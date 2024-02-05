@@ -32,6 +32,7 @@
 \usepackage{enumerate} % 有/无序列表支持
 \usepackage[hidelinks]{hyperref} % 目录添加超链接
 \usepackage{zhnumber} % 章节序号中文展示
+\usepackage{xpatch} % 参考文献编号
 % 数学支持
 \usepackage{amsmath} % 数学公式支持
 \usepackage{amssymb} % 数学符号支持
@@ -138,10 +139,11 @@
 \counterwithin{table}{section} % 表格按章节编号
 
 %%%%%%%%%%%%%%% 参考文献 %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% 参考文献 %%%%%%%%%%%%%%%
+\xpatchcmd{\thebibliography}{\section*}{\section}{}{}
 \newcommand{\reference}[1]{
     \newpage
     \begin{thebibliography}{99}
-        \addcontentsline{toc}{section}{参考文献}
         #1
     \end{thebibliography}
 }

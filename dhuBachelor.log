@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.26)  19 OCT 2023 11:21
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.26)  5 FEB 2024 17:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -384,7 +384,12 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip70
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count304
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip71
 
@@ -401,14 +406,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count304
+\inf@bad=\count305
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count305
-\leftroot@=\count306
+\uproot@=\count306
+\leftroot@=\count307
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count307
-\DOTSCASE@=\count308
+\classnum@=\count308
+\DOTSCASE@=\count309
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -421,20 +426,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen194
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count309
+\macc@depth=\count310
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count310
+\c@MaxMatrixCols=\count311
 \dotsspace@=\muskip18
-\c@parentequation=\count311
-\dspbrk@lvl=\count312
+\c@parentequation=\count312
+\dspbrk@lvl=\count313
 \tag@help=\toks21
-\row@=\count313
-\column@=\count314
-\maxfields@=\count315
+\row@=\count314
+\column@=\count315
+\maxfields@=\count316
 \andhelp@=\toks22
 \eqnshift@=\dimen195
 \alignsep@=\dimen196
@@ -466,20 +471,20 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
  (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count316
-\calc@Bcount=\count317
+\calc@Acount=\count317
+\calc@Bcount=\count318
 \calc@Adimen=\dimen257
 \calc@Bdimen=\dimen258
 \calc@Askip=\skip74
 \calc@Bskip=\skip75
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count318
+\calc@Ccount=\count319
 \calc@Cskip=\skip76
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count319
+\g_MT_multlinerow_int=\count320
 \l_MT_multwidth_dim=\dimen259
 \origjot=\skip77
 \l_MT_shortvdotswithinadjustabove_dim=\dimen260
@@ -517,12 +522,12 @@ Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@hangindent=\dimen274
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count320
-\c@continuedfloat=\count321
+\c@caption@flags=\count321
+\c@continuedfloat=\count322
 Package caption Info: hyperref package is loaded.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count322
+\c@float@type=\count323
 \float@exts=\toks25
 \float@box=\box60
 \@float@everytoks=\toks26
@@ -535,10 +540,10 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigbottomskip=\skip80
 \subfigcapmargin=\dimen276
 \subfiglabelskip=\skip81
-\c@subfigure=\count323
-\c@lofdepth=\count324
-\c@subtable=\count325
-\c@lotdepth=\count326
+\c@subfigure=\count324
+\c@lofdepth=\count325
+\c@subtable=\count326
+\c@lotdepth=\count327
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -573,17 +578,17 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen286
 \cmidrulekern=\dimen287
 \defaultaddspace=\dimen288
-\@cmidla=\count327
-\@cmidlb=\count328
+\@cmidla=\count328
+\@cmidlb=\count329
 \@aboverulesep=\dimen289
 \@belowrulesep=\dimen290
-\@thisruleclass=\count329
-\@lastruleclass=\count330
+\@thisruleclass=\count330
+\@lastruleclass=\count331
 \@thisrulewidth=\dimen291
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip84
-\multirow@cntb=\count331
+\multirow@cntb=\count332
 \multirow@dima=\skip85
 \bigstrutjot=\dimen292
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/multirow/bigstrut.sty
@@ -593,7 +598,7 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count332
+\c@r@tfl@t=\count333
 \rotFPtop=\skip86
 \rotFPbot=\skip87
 \rot@float@box=\box62
@@ -615,39 +620,39 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \TX@old@col=\dimen297
 \TX@target=\dimen298
 \TX@delta=\dimen299
-\TX@cols=\count333
+\TX@cols=\count334
 \TX@ftn=\toks29
 )
-\c@example=\count334
-\c@algorithm=\count335
-\c@theorem=\count336
-\c@definition=\count337
-\c@axiom=\count338
-\c@property=\count339
-\c@proposition=\count340
-\c@lemma=\count341
-\c@corollary=\count342
-\c@remark=\count343
-\c@condition=\count344
-\c@conclusion=\count345
-\c@assumption=\count346
+\c@example=\count335
+\c@algorithm=\count336
+\c@theorem=\count337
+\c@definition=\count338
+\c@axiom=\count339
+\c@property=\count340
+\c@proposition=\count341
+\c@lemma=\count342
+\c@corollary=\count343
+\c@remark=\count344
+\c@condition=\count345
+\c@conclusion=\count346
+\c@assumption=\count347
  (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count347
+\lst@mode=\count348
 \lst@gtempboxa=\box65
 \lst@token=\toks30
-\lst@length=\count348
+\lst@length=\count349
 \lst@currlwidth=\dimen300
-\lst@column=\count349
-\lst@pos=\count350
+\lst@column=\count350
+\lst@pos=\count351
 \lst@lostspace=\dimen301
 \lst@width=\dimen302
-\lst@newlines=\count351
-\lst@lineno=\count352
+\lst@newlines=\count352
+\lst@lineno=\count353
 \lst@maxwidth=\dimen303
  (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count353
-\lst@skipnumbers=\count354
+\c@lstnumber=\count354
+\lst@skipnumbers=\count355
 \lst@framebox=\box66
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
@@ -655,8 +660,8 @@ File: listings.cfg 2023/02/27 1.9 listings configuration
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
  (/usr/local/texlive/2023/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2022/08/05 v3.9.1 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count355
-\l__xeCJK_listings_flag_int=\count356
+\l__xeCJK_listings_max_char_int=\count356
+\l__xeCJK_listings_flag_int=\count357
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -679,10 +684,10 @@ Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environ
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count357
-\c@ALC@line=\count358
-\c@ALC@rem=\count359
-\c@ALC@depth=\count360
+\c@ALC@unique=\count358
+\c@ALC@line=\count359
+\c@ALC@rem=\count360
+\c@ALC@depth=\count361
 \ALC@tlm=\skip90
 \algorithmicindent=\skip91
 )) (./dhuBachelor.aux)
@@ -810,7 +815,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count361
+\c@lstlisting=\count362
 
 Package fontspec Info: Could not resolve font "SimHei/BI" (it probably doesn't
 (fontspec)             exist).
@@ -1104,13 +1109,13 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `dhuBachelor.out' has not changed.
-(rerunfilecheck)             Checksum: EE19F21A971231D1D41973587D8EA135;1411.
+(rerunfilecheck)             Checksum: 35FBCEBA12611E5D5B316191628E9997;1405.
  ) 
 Here is how much of TeX's memory you used:
- 21049 strings out of 476683
- 432310 string characters out of 5804047
+ 21506 strings out of 476683
+ 439111 string characters out of 5804047
  1923018 words of memory out of 5000000
- 40914 multiletter control sequences out of 15000+600000
+ 41363 multiletter control sequences out of 15000+600000
  521164 words of font info for 108 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,12n,111p,524b,1213s stack positions out of 10000i,1000n,20000p,200000b,200000s
