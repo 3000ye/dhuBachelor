@@ -108,6 +108,16 @@
     ~\par
 }
 
+%%%%%%%%%%%%%%% 重写三级标题 %%%%%%%%%%%%%%%
+\usepackage{titlesec}
+
+% 定义 subsubsection 标题格式
+\titleformat{\subsubsection}{\normalfont\bfseries}{\hspace{2em}\thesubsubsection}{1em}{}
+
+% 定义 subsubsection 缩进
+% \titlespacing*{\subsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+
 %%%%%%%%%%%%%%% 有序列表 %%%%%%%%%%%%%%%
 \newcommand{\orderedList}[1]{
     \begin{enumerate}[\hspace{2em} (i)]

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.26)  5 FEB 2024 17:10
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.26)  26 MAR 2024 12:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1052,7 +1052,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
 [6]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 186.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 187.
 File: ./assets/logo.png Graphic file (type bmp)
 <./assets/logo.png>
 
@@ -1112,10 +1112,10 @@ Package rerunfilecheck Info: File `dhuBachelor.out' has not changed.
 (rerunfilecheck)             Checksum: 35FBCEBA12611E5D5B316191628E9997;1405.
  ) 
 Here is how much of TeX's memory you used:
- 21506 strings out of 476683
- 439111 string characters out of 5804047
+ 21504 strings out of 476683
+ 439070 string characters out of 5804047
  1923018 words of memory out of 5000000
- 41363 multiletter control sequences out of 15000+600000
+ 41361 multiletter control sequences out of 15000+600000
  521164 words of font info for 108 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,12n,111p,524b,1213s stack positions out of 10000i,1000n,20000p,200000b,200000s
