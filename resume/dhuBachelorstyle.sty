@@ -14,7 +14,6 @@
 % \usepackage{tocloft} % 修改目录样式
 \usepackage{sectsty} % 自定义章节标题样式
 \usepackage{titlesec} % 修改章节标题的字体大小
-
 % 设置字体
 % \usepackage[UTF8]{ctex}
 % \usepackage{fontspec}
@@ -98,8 +97,8 @@
 
 %%%%%%%%%%%%%%% 设置各级标题格式 %%%%%%%%%%%%%%%
 \titleformat{\section}{\centering\fontsize{16pt}{19.2pt} \heiti\bfseries}{\thesection}{1em}{}
-\titleformat{\subsection}{\fontsize{14pt}{16.8pt} \heiti\bfseries}{\thesubsection}{1em}{}
-\titleformat{\subsubsection}{\fontsize{12pt}{14.4pt} \heiti\bfseries}{\thesubsubsection}{1em}{}
+\titleformat{\subsection}{\fontsize{14pt}{16.8pt} \heiti\bfseries}{\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}{\fontsize{12pt}{14.4pt} \heiti\bfseries}{\hspace{2em}\thesubsubsection}{0.5em}{}
 
 %%%%%%%%%%%%%%% 重写一级标题 %%%%%%%%%%%%%%%
 \newcommand{\reSection}[1]{
@@ -107,16 +106,6 @@
     \section{#1}
     ~\par
 }
-
-%%%%%%%%%%%%%%% 重写三级标题 %%%%%%%%%%%%%%%
-\usepackage{titlesec}
-
-% 定义 subsubsection 标题格式
-\titleformat{\subsubsection}{\normalfont\bfseries}{\hspace{2em}\thesubsubsection}{1em}{}
-
-% 定义 subsubsection 缩进
-% \titlespacing*{\subsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
-
 
 %%%%%%%%%%%%%%% 有序列表 %%%%%%%%%%%%%%%
 \newcommand{\orderedList}[1]{
@@ -127,6 +116,8 @@
 
 %%%%%%%%%%%%%%% 数学环境设置 %%%%%%%%%%%%%%%
 \numberwithin{equation}{section} % 数学公式按章节编号
+\renewcommand{\theequation}{\thesection{}-\arabic{equation}}
+
 \newtheorem{example}{例}
 \newtheorem{algorithm}{算法}
 \newtheorem{theorem}{定理}[section]
@@ -144,11 +135,13 @@
 %%%%%%%%%%%%%%% 图片环境设置 %%%%%%%%%%%%%%%
 \counterwithin{figure}{section} % 图片按章节编号
 \captionsetup{font={bf}}
+\renewcommand{\thefigure}{\thesection{}-\arabic{figure}}
 
 %%%%%%%%%%%%%%% 表格环境设置 %%%%%%%%%%%%%%%
 \counterwithin{table}{section} % 表格按章节编号
+\renewcommand{\thetable}{\thesection{}-\arabic{table}}
 
-%%%%%%%%%%%%%%% 参考文献 %%%%%%%%%%%%%%%
+
 %%%%%%%%%%%%%%% 参考文献 %%%%%%%%%%%%%%%
 \xpatchcmd{\thebibliography}{\section*}{\section}{}{}
 \newcommand{\reference}[1]{
