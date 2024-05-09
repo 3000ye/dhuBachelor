@@ -2,14 +2,14 @@
 \ProvidesPackage{resume/dhuBachelorstyle}
 
 % 设置页面尺寸
-\usepackage[a4paper, top=2.54cm, bottom=2.54cm, left=3.18cm, right=3.18cm]{geometry} % 页边距设置
+
+\usepackage[a4paper, top=1.8cm, bottom=3.28cm, left=3.18cm, right=3.18cm]{geometry} % 页边距设置
 \usepackage{fancyhdr} % 自定义页眉页脚
-% 页眉页脚设置
-\pagestyle{fancy}
+\pagestyle{fancy} % 页眉页脚设置
 % \fancyhf{}
 \fancyhead[L]{\includegraphics[width=0.24\linewidth]{./assets/logo.png}}
-\setlength{\headsep}{60pt} % 页眉高度
-\setlength{\footskip}{0pt} % 页脚高度
+\setlength{\headsep}{40pt} % 页眉高度
+% \setlength{\footskip}{0pt} % 页脚高度
 % 目录设置
 % \usepackage{tocloft} % 修改目录样式
 \usepackage{sectsty} % 自定义章节标题样式
@@ -29,6 +29,7 @@
 \setmainfont{Times New Roman}
 % 文本设置
 \usepackage{enumerate} % 有/无序列表支持
+% \usepackage{enumitem} % 支持调整enumerate行距
 \usepackage[hidelinks]{hyperref} % 目录添加超链接
 \usepackage{zhnumber} % 章节序号中文展示
 \usepackage{xpatch} % 参考文献编号
@@ -100,9 +101,18 @@
 \titleformat{\subsection}{\fontsize{14pt}{16.8pt} \heiti\bfseries}{\thesubsection}{0.5em}{}
 \titleformat{\subsubsection}{\fontsize{12pt}{14.4pt} \heiti\bfseries}{\hspace{2em}\thesubsubsection}{0.5em}{}
 
+% \usepackage{titletoc}
+% \titlecontents{section}
+%               [0pt] % 左边距
+%               {}
+%               {\bfseries\thecontentslabel\enspace} % 章节编号与标题之间的空白
+%               {}
+%               {\titlerule*[0.5pc]{.}\contentspage} % 使用点线作为分隔符
+
 %%%%%%%%%%%%%%% 重写一级标题 %%%%%%%%%%%%%%%
 \newcommand{\reSection}[1]{
     \newpage
+    ~\par
     \section{#1}
     ~\par
 }
@@ -143,9 +153,22 @@
 
 
 %%%%%%%%%%%%%%% 参考文献 %%%%%%%%%%%%%%%
-\xpatchcmd{\thebibliography}{\section*}{\section}{}{}
+%定义了新的长度变量名为\bibitemsep，文献名之间的行距
+\newlength{\bibitemsep}\setlength{\bibitemsep}{.01\baselineskip plus .005\baselineskip minus .005\baselineskip}
+%定义新的长度变量名为\bibparskip，文献内部的行距
+\newlength{\bibparskip}\setlength{\bibparskip}{0pt}
+%用\let命令将原先的\thebibliography保存为\oldthebibliography
+\let\oldthebibliography\thebibliography
+%然后重新定义\thebibliography命令
+\renewcommand\thebibliography[1]{%
+    \oldthebibliography{#1}%#1
+    \setlength{\parskip}{\bibitemsep}%
+    \setlength{\itemsep}{\bibparskip}%
+}
+
+\xpatchcmd{\oldthebibliography}{\section*}{\section}{}{}
 \newcommand{\reference}[1]{
-    \newpage
+    % \newpage
     \begin{thebibliography}{99}
         #1
     \end{thebibliography}
@@ -155,6 +178,7 @@
 \newcommand{\reThanks}[1]{
     \newpage
     \addcontentsline{toc}{section}{致谢}
+    % \section*{致谢}
     \begin{center}
         ~\par
         \heiti{\fontsize{16pt}{19.2pt}\selectfont 致谢}\\

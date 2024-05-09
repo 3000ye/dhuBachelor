@@ -1,4 +1,43 @@
 # 东华大学学士毕业论文 LaTeX 模板使用手册
+
+# ================== 分割线 ========================
+
+2024 年 5 月 9 日更新：
+
+1. 更新 xxx.sty 文件，需手动替换
+2. 因字体无法控制，弃用 xxx.cls 文件
+3. 在 xxx.tex 文件开头，需添加代码：
+
+```tex
+\documentclass[12pt, a4paper]{article}
+\linespread{} % 行间距1.5倍
+```
+
+另外，建议使用以下方式管理不同章节，写论文时可以将其他章节内容注释来加快编译时间：
+
+```tex
+\documentclass[12pt, a4paper]{article}
+\linespread{} % 行间距1.5倍
+\usepackage{resume/dhuBachelorstyle}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document} % 文档从这里开始。
+
+
+\include{contents/0-abstract}
+\include{contents/1-introduction}
+\include{contents/4-review}
+\include{contents/5-model}
+\include{contents/6-design}
+\include{contents/7-result}
+\include{contents/8-conclusion}
+\include{contents/9-reference}
+\include{contents/10-thanks}
+
+\end{document}
+```
+
+# ================== 分割线 ========================
+
 ## 导入模板
 ### 使用 Git 克隆仓库
 
